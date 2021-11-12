@@ -1,0 +1,175 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+input, textarea{
+    background-color: transparent;
+    color: white;
+}
+
+/* Sections */
+.black-section{
+    background-color: black;
+    color: gainsboro;
+}
+
+.white-section{
+    background-color: white;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merrieweather';
+}
+
+/* workflow */
+#workflow{
+    padding: 5% 7%;
+}
+
+.workflow-card{
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+/* Experience */
+#experience{
+    padding: 5% 7%;
+}
+
+.experience-image{
+    width: 280px;
+    height: 160px;
+    text-align: right;
+    margin-left: 2%;
+}
+
+.experience-item{
+    padding: 2% 0;
+}
+
+/* About-Me */
+#about-me{
+    padding: 7% 7% 7% 0;
+}
+
+.margin-me{
+    margin-left: 7%;
+}
+
+.profile-content{
+    padding-left: 8%;
+}
+
+.me-text h2{
+    color: #185ADB;
+}
+
+.me-text{
+    padding-left: 4%;
+}
+
+.hobby-icon{
+    padding-right: 4%;
+    color: #185ADB;
+}
+
+.hobby-icon:hover{
+    color: #39A2DB;
+}
+
+/* Education */
+#education{
+    padding: 5% 0% 7% 8%;
+}
+
+/* Skill & Certification */
+#skill{
+    padding: 5% 7% 3% 7%;
+}
+
+.skill-icon{
+    padding-right: 4%;
+    color: #185ADB;
+}
+
+
+.skill-icon:hover{
+    color: #39A2DB;
+}
+
+
+
+
+
+
+
+
+/* Title */
+.title-background{
+    width: 100%;
+    height: 615px;
+    
+    
+    background-position: center;
+    background-size: cover;
+}
+#title{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("bg3.jpg");
+}
+
+.title-content{
+    text-align: center;
+    padding-top: 14%;
+}
+ .title-content h1{
+    font-family: 'Merrieweather';
+    font-size: 4.3rem;
+}
+
+.btns{
+    width: 18%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 30x;
+    /* border-radius: 6px; */
+    font-weight: bold;
+    border: 2px solid rgb(24, 23, 23);
+    background: rgb(24,24,24);
+    color: #185ADB;
+    cursor: pointer;
+}
+
+
+/* Workflow */
+.work{
+    width: 100%;
+    height: 615px;
+}
+
+/* Contact */
+#contact-me{
+    padding: 7% 7%;
+}
+
+/* Footer */
+footer{
+    margin: 0;
+    padding: 1% 8%;
+}
+
+footer p{
+    font-size: 0.7rem;
+    color: grey;
+}
+

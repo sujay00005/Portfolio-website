@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Portfolio Website</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- fontAwesome -->
+    <script
+            src="https://kit.fontawesome.com/016ff18540.js"
+            crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+    />
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!-- Title-section -->
+
+<section class="black-section" id="title">
+    <div class="container-fluid title-background">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sujay</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#workflow">Workflow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications">Certificaiton</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Title -->
+        <div class="title-content">
+            <h1>SUJAY BISWAS</h1>
+            <br>
+            <span>Mobile App and Web Development</span>
+            <p> Also a Hard Worker, Enthusiast & Ambitious</p>
+
+            <!-- downloadable resume and direct mail -->
+
+            <button type="button" class="btns"><a
+                    href="https://drive.google.com/file/d/13RfHFKLrwvAAPtbN0gvKXpAxNNOtuLB1/view?usp=sharing"><i
+                    class="fas fa-file-download"></i> Resume</a></button>
+
+            <button type="button" class="btns"><a href="mailto:sujay00005@gmail.com"><i
+                    class="footer-icon fas fa-envelope"></i> E-mail</a></button>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="white-section" id="workflow">
+    <div class="container-fluid work">
+        <h1>Workflow</h1>
+
+
+        <br>
+        <!-- Mobile -->
+        <!-- Completed -->
+        <h2>Mobile Apps</h2>
+        <div class="row workflow">
+          <div class="card workflow-card col-lg-3 col-md-3">
+            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-title">Messaging app</h5>
+              <p class="card-text">This app uses Firebase as backend to register and authenticate users. It uses stream to interchange messages in real time.</p>
+              <a href="https://github.com/sujay00005/chatApp" class="btn btn-primary">View on Github</a>
+            </div>
+          </div>
+          <div class="card workflow-card col-lg-3 col-md-3">
+            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-title">Climate app</h5>
+              <p class="card-text">It uses API calls to fetch data and display on the screen. It updates weather for current position and we can also search for a cities weather.</p>
+              <a href="https://github.com/sujay00005/climateApp" class="btn btn-primary">View on Github</a>
+            </div>
+          </div>
+          <div class="card workflow-card col-lg-3 col-md-3">
+            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-title">Product app</h5>
+              <p class="card-text">Firebase has been used to login and register a user. It has basic user interface just like shopping apps.</p>
+              <a href="https://github.com/sujay00005/Product" class="btn btn-primary">View on Github</a>
+            </div>
+          </div>
+
+
+          <h2>Web Apps</h2>
+          <div class="row workflow">
+            <div class="card workflow-card col-lg-3 col-md-3">
+                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                <div class="card-body">
+                  <h5 class="card-title">Blog Website</h5>
+                  <p class="card-text">We provide a title and then the body of the to post and it has been created using Express, Node and EJS.</p>
+                  <a href="https://github.com/sujay00005/Blog-Website/tree/main/Blog%20Website" class="btn btn-primary">View on Github</a>
+                </div>
+              </div>
+              <div class="card workflow-card col-lg-3 col-md-3">
+                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                <div class="card-body">
+                  <h5 class="card-title">To-do List app</h5>
+                  <p class="card-text">This app allow us to create to-do list for different dates and also for different routes such as work.</p>
+                  <a href="https://github.com/sujay00005/ToDo-List/tree/main/todolist" class="btn btn-primary">View on Github</a>
+                </div>
+              </div>
+              <div class="card workflow-card col-lg-3 col-md-3">
+                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                <div class="card-body">
+                  <h5 class="card-title">Weather app</h5>
+                  <p class="card-text">In this app we can type the name of the city and we can get the weather of that place using Express and Node.</p>
+                  <a href="https://github.com/sujay00005/Weather-App/tree/main/WeatherProject" class="btn btn-primary">View on Github</a>
+                </div>
+              </div>
+              </div>
+
+          </div>
+
+        <!-- Still working On -->
+
+        <!-- Web App -->
+        <!-- Completed -->
+
+        <!-- Still working On -->
+
+    </div>
+</section>
+
+<section class="container-fluid black-section" id="experience">
+    <!-- Experience -->
+    <h1>Experiences</h1>
+
+    <div class="row">
+
+        <div class="col-lg-6 col-md-12 experience-item">
+            <img class="experience-image" src="image/mobile-dev.jpg" alt="mobile developement image">
+        </div>
+        <div class="col-lg-6 col-md-12 experience-item">
+            <h3>Flutter App Development</h3>
+            <p>I love building mobile application and I gained some experience by building my personal project I have
+                created responsive UIs and build different type of apps such as Facebook clone, Netflix clone, Firebase
+                base group chat, API integrated climate app. I have the knowledge and understanding that is required for
+                getting this job.</p>
+        </div>
+
+        <div class="col-lg-6 col-md-12 experience-item">
+            <img class="experience-image" src="image/web-dev1.jpg" alt="web development image">
+        </div>
+
+        <div class="col-lg-6 col-md-12 experience-item">
+            <h3>Web App Development</h3>
+            <p>Whenever I got any extra time in my schedule, I started learning and building some interested things in
+                web. I have small knowledge in HTML, CSS, JavaScript, NodeJS and ExpressJS. I explore my creativity with
+                help of some google as well as youtube. and find the solution how its work,what's going in background,
+                how to improve it. :) .</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Skills and Certificaiton -->
+<section class="container-fluid white-section" id="skill">
+
+    <!-- Skills -->
+    <h1>Skills</h1><br>
+    <div class="col">
+      <img src="https://img.icons8.com/color/55/000000/flutter.png"/>
+        <!-- <img src="https://img.icons8.com/material-outlined/17/000000/flutter.png" title="Flutter"/> -->
+        <i class="skill-icon fab fa-js-square fa-3x" title="JavaScript"></i>
+        <i class="skill-icon fab fa-bootstrap fa-3x" title="Bootstrap 5"></i>
+        <i class="skill-icon fab fa-css3-alt fa-3x" title="CSS 3"></i>
+        <i class="skill-icon fab fa-html5 fa-3x" title="HTML 5"></i>
+        <i class="skill-icon fab fa-git-square fa-3x" title="Git"></i>
+        <i class="skill-icon fab fa-python fa-3x" title="Python"></i>
+    </div>
+    <br><br><br>
+
+
+    <h1>Certifications</h1><br>
+
+    <p>🥇 Web Development Bootcamp (ongoing) </p>
+    <br>
+    <p>🥇 Flutter Development Bootcamp</p>
+    <br>
+    <p>🥇 Python for Everybody Specialization</p>
+    <br>
+    <p>🥇 Introduction to Internet Of Things Specialization</p>
+</section>
+
+
+<section class="black-section" id="about-me">
+    <!-- image and description and hobbies -->
+    <h1 class="margin-me">About Me</h1>
+    <br>
+    <div class="row">
+
+        <div class="col-lg-6 profile-content">
+            <img src="image/sujayProfile.png" alt="Profile-Image">
+            <div class="me-text">
+                <h2>Sujay Biswas</h2>
+                <br>
+                <p>2020 Graduate</p>
+                <p>Bachelor of Technology</p>
+                <p>English, Hindi, Bangla</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 my-description">
+            <p>
+                Hi, my name is Sujay Biswas and I'm a 2020 graduate in B-Tech from University of Kalyani. Over the past
+                2 years, coding has developed into a passion of mine, specifically, in the realm of mobile development
+                and web development. I've dedicated my time to gaining proficiency in both these development areas in
+                order to better myself as a developer and problem solver.
+            </p>
+            <p>
+                I am able to create clean and functional websites and mobile apps. I am competent in my frontend and
+                backend to the point that I am able to confidently deliver products to my clients knowing that they are
+                of high quality. I enjoy helping brands establish their digital presence and developing pleasant user
+                experiences.
+            </p><br>
+
+
+            <div class="hobbies">
+                <h4>Hobbies</h4>
+                <div class="column">
+                    <i class="hobby-icon fas fa-globe-asia fa-2x" title="Travelling"></i>
+                    <i class="hobby-icon fas fa-book fa-2x" title="Reading Novels"></i>
+                    <i class="hobby-icon fas fa-music fa-2x" title="Listining to Music"></i>
+                    <i class="hobby-icon fas fa-volleyball-ball fa-2x" title="Playing any Sport"></i>
+                    <i class="hobby-icon fas fa-laptop-code fa-2x" title="Learning about Technologies"></i>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="white-section" id="education">
+
+    <h2>Education</h2><br>
+    <div class="row">
+        <div class="col-lg-9">
+            <h4>University of Kalyani</h4>
+            <h6>Bachelor Of Technology</h6>
+            <p>GPA: 7.99</p>
+        </div>
+        <div class="col-lg-3">
+            <h6>August 2016 - 2020</h6>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-9">
+            <h4>Park Mount Public School</h4>
+            <h6>Higher Secondary</h6>
+            <p>Percentage: 87.6%</p>
+        </div>
+        <div class="col-lg-3">
+            <h6>August 2013 - 2015</h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-9">
+            <h4>Carmel School</h4>
+            <h6>Matriculation</h6>
+            <p>Percentage: 88.2%</p>
+        </div>
+        <div class="col-lg-3">
+            <h6>June 2009 - 2013</h6>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact -->
+<section class="black-section" id="contact-me">
+    
+        
+        <div class="container-fluid">
+          <h1 class="big-heading">Contact</h1><br><br>
+          <div class="row">
+
+            <div class="col-lg-6">
+            <a href=""><i class="fas fa-id-badge"></i> : Sujay Biswas</a><br><br>
+          
+            <a href="https://en.wikipedia.org/wiki/Naihati"><i class="fas fa-map-marker-alt"></i> : Naihati, West Bengal</a><br><br>
+
+            <a href="tel:+917292998781"
+              ><i class="fas fa-phone-alt"></i> : 7292998781</a
+              ><br><br>
+          </div>
+
+          <div class="col-lg-6">
+            <a href="mailto:sujay00005@gmail.com"
+            ><i class="footer-icon fas fa-envelope"></i> : sujay00005@gmail.com</a> <br><br>
+          
+            <a href="https://www.linkedin.com/in/sujay-biswas-5461b8146/"
+            ><i class="fab fa-linkedin-in"> : Linkdin Profile</i
+            ></a><br><br>
+
+            <div class="col-lg-6 contact-info">
+              <a href="https://github.com/sujay00005"
+              ><i class="fab fa-github"></i
+              > : Github Profile</a><br>
+            </div>
+            
+            </div>
+          </div>
+      </div>
+</section>
+</body>
+
+<!-- Footer -->
+<footer class=" no-margin black-section">
+  <p>©Copyright 2021</p>
+    
+</footer>
+</html>
