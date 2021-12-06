@@ -38,6 +38,9 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 2%;
 }
 
+.card{
+    display: flex;
+}
 
 
 
@@ -118,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
 /* Title */
 .title-background{
     width: 100%;
-    height: 615px;
+    height: 635px;
     
     
     background-position: center;
